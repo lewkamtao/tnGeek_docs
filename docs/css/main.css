@@ -20,6 +20,7 @@ section.cover {
 .markdown-section {
     max-width: 1024px !important;
     margin-left: 0px;
+    padding: 35px;
 }
 
 html {
@@ -44,4 +45,10 @@ html::-webkit-scrollbar-thumb {
 
 html::-webkit-scrollbar-track {
     background-color: rgba(0, 0, 0, .1)
+}
+
+@media screen and (max-width: 800px) {
+    .markdown-section {
+        padding: 20px;
+    }
 }
