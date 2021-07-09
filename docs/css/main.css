@@ -1,0 +1,47 @@
+@import "https://30sec.oss-cn-guangzhou.aliyuncs.com/public/SanCFont.css";
+
+/* 字体 */
+
+html {
+    font-family: "Noto Sans SC";
+}
+
+div {
+    font-family: "Noto Sans SC";
+}
+
+section.cover {
+    background-color: #000 !important;
+}
+
+
+/* 这个是主体的框架，限制不能太大 */
+
+.markdown-section {
+    max-width: 1024px !important;
+    margin-left: 0px;
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, .2) transparent;
+}
+
+html::-webkit-scrollbar {
+    width: 4px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, .2);
+    transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease
+}
+
+html::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, .1)
+}
