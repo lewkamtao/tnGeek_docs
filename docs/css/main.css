@@ -20,7 +20,7 @@ section.cover {
 .markdown-section {
     max-width: 1024px !important;
     margin-left: 0px;
-    padding: 35px;
+    padding: 35px 50px 35px 35px;
     box-sizing: border-box;
 }
 
