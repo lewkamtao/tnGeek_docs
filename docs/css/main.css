@@ -21,6 +21,7 @@ section.cover {
     max-width: 1024px !important;
     margin-left: 0px;
     padding: 35px;
+    box-sizing: border-box;
 }
 
 .sidebar-toggle {
